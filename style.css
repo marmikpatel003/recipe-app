@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+#addRecipe,
+#viewRecipe {
+  display: none;
+}
+
+#addRecipe.active,
+#viewRecipe.active {
+  display: block;
+}
+
+#hiddenAddRecipe {
+  display: none;
+}
+
+#hiddenViewRecipe {
+  display: none;
+}
+
+.main_wrapper {
+  /* background-image: url(bg.jpg); */
+  min-height: 100vh;
+  background: linear-gradient(
+      rgba(229, 223, 223, 0.8),
+      rgb(229, 223, 223, 0.85)
+    ),
+    url(bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
